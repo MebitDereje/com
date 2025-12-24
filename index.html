@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Your Name</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="mailto:your.email@example.com" class="email-link">📧 Email</a></li>
+                <li><button class="theme-toggle" id="themeToggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Hi, I'm a <span class="highlight">Developer</span></h2>
+            <p class="hero-description">
+                I create beautiful, functional websites and applications that solve real problems.
+                Passionate about clean code and great user experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer with experience in modern web technologies. I love turning complex problems into simple, beautiful designs.</p>
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 1</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Title</h3>
+                        <p>Brief description of what this project does and the technologies used.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 2</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Another Project</h3>
+                        <p>Description of another amazing project you've built.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">Project 3</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Third Project</h3>
+                        <p>Yet another cool project showcasing your skills.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in new opportunities and collaborations.</p>
+                <div class="contact-options">
+                    <a href="mailto:your.email@example.com" class="contact-method">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h3>Email Me</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+1234567890" class="contact-method">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <h3>Call Me</h3>
+                            <p>+1 (234) 567-8900</p>
+                        </div>
+                    </a>
+                    
+                    <a href="sms:+1234567890" class="contact-method">
+                        <span class="contact-icon">💬</span>
+                        <div>
+                            <h3>Text Me</h3>
+                            <p>+1 (234) 567-8900</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://wa.me/1234567890" class="contact-method" target="_blank">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>Chat instantly</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/yourprofile" class="contact-method" target="_blank">
+                        <span class="contact-icon">💼</span>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>Professional network</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://calendly.com/yourname" class="contact-method" target="_blank">
+                        <span class="contact-icon">📅</span>
+                        <div>
+                            <h3>Schedule Meeting</h3>
+                            <p>Book a time slot</p>
+                        </div>
+                    </a>
+                    
+                    <button class="contact-method" id="openChat">
+                        <span class="contact-icon">💬</span>
+                        <div>
+                            <h3>Live Chat</h3>
+                            <p>Chat with me now</p>
+                        </div>
+                    </button>
+                </div>
+                <div class="contact-divider">
+                    <span>or use the form below</span>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Email</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Button -->
+    <div class="floating-contact">
+        <button class="floating-btn" id="floatingContact">
+            <span class="floating-icon">💬</span>
+        </button>
+        <div class="floating-menu" id="floatingMenu">
+            <a href="mailto:your.mebitud@gmail.com" class="floating-option">
+                <span>📧</span> Email
+            </a>
+            <a href="tel:+251941454421" class="floating-option">
+                <span>📞</span> Call
+            </a>
+            <a href="sms:+251941454421" class="floating-option">
+                <span>💬</span> Text
+            </a>
+            <a href="https://wa.me/1234567890" class="floating-option" target="_blank">
+                <span>📱</span> WhatsApp
+            </a>
+            <button class="floating-option" id="openChatFloat">
+                <span>💬</span> Live Chat
+            </button>
+        </div>
+    </div>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget" id="chatWidget">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar">👨‍💻</div>
+                <div class="chat-details">
+                    <h4>Your Name</h4>
+                    <span class="chat-status">🟢 Online</span>
+                </div>
+            </div>
+            <button class="chat-close" id="chatClose">✕</button>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="chat-message bot-message">
+                <div class="message-avatar">👨‍💻</div>
+                <div class="message-content">
+                    <p>Hi there! 👋 I'm excited to hear from you. How can I help you today?</p>
+                    <span class="message-time">Just now</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-quick-replies" id="quickReplies">
+            <button class="quick-reply" data-message="I'd like to discuss a project">💼 Project Discussion</button>
+            <button class="quick-reply" data-message="I want to hire you">🤝 Hire Me</button>
+            <button class="quick-reply" data-message="I have a question about your work">❓ Ask Question</button>
+        </div>
+        
+        <div class="chat-input-container">
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Type your message..." maxlength="500">
+                <button class="chat-send" id="chatSend">
+                    <span>📤</span>
+                </button>
+            </div>
+            <div class="chat-typing" id="chatTyping" style="display: none;">
+                <span>Your Name is typing...</span>
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
